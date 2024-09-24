@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2024-08-01" view-index="0" gantt-divider-location="363" resource-divider-location="300" version="3.3.3309" locale="es_ES">
+    <description/>
+    <view zooming-state="default:8" id="gantt-chart">
+        <field id="tpd3" name="Nombre" width="206" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="78" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="78" order="2"/>
+        <field id="tpd15" name="Notas" width="20" order="3"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nombre" width="210" order="0"/>
+        <field id="1" name="Función" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" uid="55889f2eb6bd483eb8be9c892efcaaab" name="INICIO" meeting="false" start="2024-09-16" duration="35" complete="0" expand="false">
+            <task id="6" uid="151efff2335e4090bf0fce012e0f608e" name="1.1 Reunion con los Clientes" meeting="false" start="2024-09-16" duration="2" complete="0" expand="false">
+                <task id="7" uid="e2efd6af106c443aa1248a9dba0598e8" name="Identificacion de necesidades" meeting="false" start="2024-09-16" duration="2" complete="0" expand="true"/>
+            </task>
+            <task id="9" uid="3458030a1f1c43fab894fd647563aced" name="1.2 Entrevista" meeting="false" start="2024-09-16" duration="6" complete="0" expand="false">
+                <task id="14" uid="38f34ac53d0a4af29f7a15722a76903b" name="Revision de informacion relevante" meeting="false" start="2024-09-16" duration="2" complete="0" expand="true"/>
+                <task id="17" uid="c968498d28144c3aa2a5106dfb0fa4b2" name="Documentacion de requerimientos iniciales" meeting="false" start="2024-09-17" duration="3" complete="0" expand="true"/>
+                <task id="16" uid="da2a6820fc824a67b2067768b7ba55ca" name="Validacion de requerimientos" meeting="false" start="2024-09-20" duration="2" complete="0" expand="true"/>
+            </task>
+            <task id="10" uid="cf960009c2b34d16b7f0e4bf675d216c" name="1.3 SRS" meeting="false" start="2024-09-24" duration="4" complete="0" expand="false">
+                <task id="11" uid="98e21ee961c64fb8ab15bb90493071e6" name="Redaccion del documento SRS" meeting="false" start="2024-09-24" duration="3" complete="0" expand="true"/>
+                <task id="12" uid="ad8c35b9fcbd4da98ca6a65516a96110" name="Revision con el cliente" meeting="false" start="2024-09-26" duration="2" complete="0" expand="true"/>
+                <task id="13" uid="51008c678a5c4dea9ac6a15c8dd26b72" name="Aprobacion SRS" meeting="false" start="2024-09-27" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="18" uid="87b2a925ff114f7db201958fea5f8dcb" name="1.4 Acta constitutiva" meeting="false" start="2024-09-30" duration="1" complete="0" expand="false">
+                <task id="29" uid="01235ed508cd4cc0b51495a9259437e0" name="Desarrollo del FODA" meeting="false" start="2024-09-30" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="19" uid="4b1b0e1a195148298ac55164fd897922" name="1.5 Especificacion de caso de uso" meeting="false" start="2024-09-30" duration="4" complete="0" expand="false">
+                <task id="30" uid="27fd3a0e50c148eab1a8c2c20cbdffbc" name="Definicion de actores y caso de uso" meeting="false" start="2024-09-30" duration="2" complete="0" expand="true"/>
+                <task id="32" uid="a3af08eb359f41fea89c0148fe8b0094" name="Diagramas de caso de uso" meeting="false" start="2024-10-02" duration="2" complete="0" expand="true"/>
+            </task>
+            <task id="20" uid="c4f9450c104d41c0a95ba7b6a8aa4455" name="1.6 Seleccion de arquitectura" meeting="false" start="2024-10-04" duration="4" complete="0" expand="false">
+                <task id="33" uid="367e55e21e5e4aa58422eb863a78b7a9" name="Seleccion de tecnologias y herramientas" meeting="false" start="2024-10-04" duration="1" complete="0" expand="true"/>
+                <task id="34" uid="0ff9a4d6b6d24695aa1036c45c189f71" name="Definicion de patrones de diseño" meeting="false" start="2024-10-07" duration="3" complete="0" expand="true"/>
+            </task>
+            <task id="21" uid="7574b62d144c40b49c89adf1c987c826" name="1.7 Diseño de Interfaz" meeting="false" start="2024-10-09" duration="3" complete="0" expand="false">
+                <task id="35" uid="10ab29a065084975bb5cbf1c7c6ff4cb" name="Wireframes(basica)" meeting="false" start="2024-10-09" duration="2" complete="0" expand="true"/>
+                <task id="36" uid="23f08c924cbb490abedc31065173c289" name="Definiciones de patrones de diseño(detallada))" meeting="false" start="2024-10-11" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="22" uid="71e8f34f81e5470b90646f0b3e89fc88" name="1.8 Trazabilidad de requerimientos no funcionales" meeting="false" start="2024-10-14" duration="2" complete="0" expand="true"/>
+            <task id="23" uid="0d6dfc4f3f5443419f4190db2391b450" name="1.9 Trazabilidad de requerimientos funcionales" meeting="false" start="2024-10-16" duration="4" complete="0" expand="false">
+                <task id="37" uid="d19d3f45f6114bafa305f00192a6690c" name="Identificacion de requerimientos funcionales" meeting="false" start="2024-10-16" duration="1" complete="0" expand="true"/>
+                <task id="38" uid="c6751274b7434297bb57b25a5c1fa7ac" name="Documentacion" meeting="false" start="2024-10-17" duration="3" complete="0" expand="true"/>
+            </task>
+            <task id="24" uid="d11c33623f6d4486b23adc8b877c712d" name="1.10 UML" meeting="false" start="2024-10-23" duration="2" complete="0" expand="false">
+                <task id="39" uid="66867753080248d5baa17ce9dab2e113" name="Diagrama de casos de uso" meeting="false" start="2024-10-23" duration="2" complete="0" expand="true"/>
+                <task id="41" uid="40c5eb6f1e324ebd9d9e1f86606aeaca" name="Diagrama entidad relacion" meeting="false" start="2024-10-24" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="25" uid="8c0f649844ea411a9d055b8d6b06f490" name="1.11 Seleccion de Metodologia (SCRUM))" meeting="false" start="2024-10-25" duration="1" complete="0" expand="true"/>
+            <task id="26" uid="f5c090beb95941a5908802485b5a6bd8" name="1.12 Revision y aprobacion(Segunda)" meeting="false" start="2024-10-28" duration="2" complete="0" expand="true"/>
+            <task id="27" uid="474326d3e3de43eba73651fc031a68db" name="1.13 Documentacion" meeting="false" start="2024-10-30" duration="3" complete="0" expand="true"/>
+        </task>
+        <task id="1" uid="6ec3f5b7c1df4a69b5a29fc5e76d3fd1" name="PLANEACION" meeting="false" start="2024-11-04" duration="17" complete="0" expand="false">
+            <task id="43" uid="0e8ecae047b5457682185f54c554e6de" name="2.1 EDT" meeting="false" start="2024-11-04" duration="2" complete="0" expand="false">
+                <task id="52" uid="d545b7d538f542adacf3e87a33bd14e3" name="Identificacion de entregables" meeting="false" start="2024-11-04" duration="2" complete="0" expand="true"/>
+                <task id="53" uid="a12be2ded62a485c8d9ef810a3de5e26" name="Elaboracion EDT" meeting="false" start="2024-11-04" duration="2" complete="0" expand="true"/>
+            </task>
+            <task id="44" uid="6b743c0eaf9747e1abceb24004916db2" name="2.2 Cronograma" meeting="false" start="2024-11-05" duration="2" complete="0" expand="false">
+                <task id="54" uid="e5274c4eb68442b19d98eca4c3c943dc" name="Asignar tiempo" meeting="false" start="2024-11-05" duration="1" complete="0" expand="true"/>
+                <task id="55" uid="f5ed400edbf9498eb337133317e7ea94" name="Elaboracion de diagrama GANTT" meeting="false" start="2024-11-05" duration="2" complete="0" expand="true"/>
+            </task>
+            <task id="45" uid="a5712262ce974d4cbcea90c2ec64e5ca" name="2.3 Presupuesto" meeting="false" start="2024-11-06" duration="2" complete="0" expand="false">
+                <task id="57" uid="4865a80704a3477fb1b8068e2ff8a348" name="Elaboracion del presupuesto" meeting="false" start="2024-11-06" duration="1" complete="0" expand="true"/>
+                <task id="56" uid="eb901b709fb148b78f490fbd62bba996" name="Identificacion de recursos" meeting="false" start="2024-11-07" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="46" uid="6731dd7b805d4f2eb16e51ac4f088c23" name="2.4 Plan de riesgo" meeting="false" start="2024-11-07" duration="4" complete="0" expand="false">
+                <task id="58" uid="eac7697fcd2d40679622844baea28a29" name="Analisis de riesgo" meeting="false" start="2024-11-07" duration="2" complete="0" expand="true"/>
+                <task id="59" uid="2788f0de66e84e6d9da7eac7db7071a4" name="Creacion de la matriz de riesgos" meeting="false" start="2024-11-08" duration="2" complete="0" expand="true"/>
+                <task id="60" uid="dc08cefae5f8444e845292653a6ab322" name="Definicion de planes de mitigacion" meeting="false" start="2024-11-11" duration="2" complete="0" expand="true"/>
+            </task>
+            <task id="47" uid="62176656199d408ebdbdf95eba6dddcf" name="2.5 Plan de Calidad" meeting="false" start="2024-11-13" duration="3" complete="0" expand="false">
+                <task id="61" uid="3e5c4fb64d9b4afe83607b1c7f210940" name="Identificacion de metricas y estandares" meeting="false" start="2024-11-13" duration="1" complete="0" expand="true"/>
+                <task id="62" uid="058c9b5bdbfb4b0d8961d5108fca8d91" name="Elaboracion de plan de calidad" meeting="false" start="2024-11-14" duration="2" complete="0" expand="true"/>
+                <task id="63" uid="c516041b605043399e456aafe8c37a2a" name="Definicion de procesos de revision" meeting="false" start="2024-11-15" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="48" uid="f2527d4a19c34457929170ae37496383" name="2.6 Plan de comunicacion" meeting="false" start="2024-11-18" duration="4" complete="0" expand="false">
+                <task id="64" uid="198282ba2cdd4a7ea5f9ba7ae18dedec" name="Identificar canales de comunicacion" meeting="false" start="2024-11-18" duration="2" complete="0" expand="true"/>
+                <task id="65" uid="830d9ec6678c43b58d9f3d453f4ad140" name="Elaboracion de matriz de comunicacion" meeting="false" start="2024-11-19" duration="3" complete="0" expand="true"/>
+            </task>
+            <task id="49" uid="d4c9aeb1033d4a47b5f2dee4a400a873" name="2.7 Plan de gestion de RH" meeting="false" start="2024-11-21" duration="2" complete="0" expand="false">
+                <task id="67" uid="3c0c5adb5038450ea8e331824b196459" name="Asignacion de roles y responsabilidad" meeting="false" start="2024-11-21" duration="2" complete="0" expand="true"/>
+                <task id="68" uid="fec3a74bf66f41ba94c5472bb8b0b733" name="Identificacion de necesidades de capacitacion" meeting="false" start="2024-11-22" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="50" uid="f4c62c8641674d38bf44000c9ee1a3e6" name="2.8 Planificacion de gestion de adquisiciones" meeting="false" start="2024-11-25" duration="1" complete="0" expand="false">
+                <task id="69" uid="9bb5225da76a4fd8bc42017ea27bec5d" name="Identificacion de proveedores" meeting="false" start="2024-11-25" duration="1" complete="0" expand="true"/>
+                <task id="70" uid="fe42ff4be009451b9216413db2e1f4cc" name="Elaboracion de plan de compras" meeting="false" start="2024-11-25" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="51" uid="f2afc98c117c478e8c24c53737667e3f" name="2.9 Trazabilidad de requerimientos Funcionales" meeting="false" start="2024-11-25" duration="2" complete="0" expand="false">
+                <task id="71" uid="2ee12df2163e42bbaa890bbe288cf2a0" name="Identificacion de stakeholders" meeting="false" start="2024-11-25" duration="2" complete="0" expand="true"/>
+            </task>
+        </task>
+        <task id="3" uid="7adf2b412a3340f3bff789b93d02b20c" name="EJECUCION" meeting="false" start="2024-11-27" duration="25" complete="0" expand="false">
+            <task id="72" uid="d0dc74be0a844bcab1105ceb56014674" name="3.1 Codigo fuente de Fron-end y Back-end" meeting="false" start="2024-11-27" duration="13" complete="0" expand="false">
+                <task id="89" uid="2a273a73a7204ec78e7fa1f01ead36e3" name="Desarrollo de interfaz de usuario" meeting="false" start="2024-11-27" duration="2" complete="0" expand="true"/>
+                <task id="90" uid="7241a6c60bd84a779731f1bad810d20b" name="Desarrollo de logica del servidor" meeting="false" start="2024-11-28" duration="2" complete="0" expand="true"/>
+                <task id="91" uid="2d32237a7f5d4ee8b3b1e57683fe0380" name="Pruebas de usabilidad" meeting="false" start="2024-12-02" duration="2" complete="0" expand="true"/>
+                <task id="92" uid="752b2dccc66141e68d85669f0a1164da" name="Manejo de seguridad y autenticacion" meeting="false" start="2024-12-04" duration="1" complete="0" expand="true"/>
+                <task id="93" uid="13ecc189f16741df93661c63d3d010a9" name="Optimizacion del codigo" meeting="false" start="2024-12-05" duration="2" complete="0" expand="true"/>
+                <task id="94" uid="f9b9b5692706467aab5f3fceafb9e343" name="Pruebas funcionales" meeting="false" start="2024-12-09" duration="3" complete="0" expand="true"/>
+                <task id="95" uid="9f7183d6bf604c359c43791c2d23f332" name="Revision de cumplimientos y estandares" meeting="false" start="2024-12-12" duration="1" complete="0" expand="true"/>
+                <task id="96" uid="23505ad325874323bc89621dc877f97c" name="Optimizacion del codigo" meeting="false" start="2024-12-13" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="73" uid="5b4e026da89141d88057bd3d7663eccd" name="3.2 Caso de pruebas" meeting="false" start="2024-12-16" duration="9" complete="0" expand="false">
+                <task id="97" uid="0bd7fe71d40141cf99c8965160e6f34a" name="Definicion de escenarios de prueba" meeting="false" start="2024-12-16" duration="1" complete="0" expand="true"/>
+                <task id="98" uid="e17d908eb49849778ac6499c3b548cce" name="Redaccion de casos de prueba" meeting="false" start="2024-12-17" duration="1" complete="0" expand="true"/>
+                <task id="99" uid="c4b6a62dc7c84c0782e70cb03ae4d864" name="Ejecucion de pruebas de integracion" meeting="false" start="2024-12-18" duration="2" complete="0" expand="true"/>
+                <task id="100" uid="3affde6dce324397a25385f81d7c5011" name="Documentacion de resultado de pruebas" meeting="false" start="2024-12-20" duration="3" complete="0" expand="true"/>
+                <task id="101" uid="443b05b0dde84440a30418a373a4f8cb" name="Correcion de errores" meeting="false" start="2024-12-25" duration="1" complete="0" expand="true"/>
+                <task id="102" uid="400deea01e694598a92e6c7cc0108827" name="Ejecucion de pruebas de regresion" meeting="false" start="2024-12-26" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="74" uid="406be2ee10de4d228bfc1f37d198d978" name="3.3 Gestion de involucrados durante la ejecucion" meeting="false" start="2024-12-27" duration="2" complete="0" expand="false">
+                <task id="103" uid="99d906b3091240e29331434d69d537ca" name="Revision de avances con stakeholders" meeting="false" start="2024-12-27" duration="1" complete="0" expand="true"/>
+                <task id="104" uid="6ecb16d79a7947818db111ecaa24a1b8" name="Adaptacion de actividades segun retroalimentacion" meeting="false" start="2024-12-30" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="75" uid="2c17897649ea416689eb3734470f74e6" name="3.4 Aseguramiento de calidad y ggestion de comunicacion" meeting="false" start="2024-12-30" duration="2" complete="0" expand="false">
+                <task id="105" uid="65a4de9bcade43f18ab049aa99c31055" name="Matriz y listado" meeting="false" start="2024-12-30" duration="2" complete="0" expand="true"/>
+            </task>
+        </task>
+        <task id="4" uid="c9f56d3800de49f1897dfeec8cebe7ef" name="SEGUIMIENTO" meeting="false" start="2025-01-01" duration="6" complete="0" expand="false">
+            <task id="81" uid="44f45ac83ce84d79befef6aae86a0ad5" name="4.1 Diagramas de despliegue" color="#8cb6ce" meeting="false" start="2025-01-01" duration="3" complete="0" expand="false">
+                <task id="106" uid="1e91ce5822fd43e7951f2672ddcb75f8" name="Identificacion de componentes" meeting="false" start="2025-01-01" duration="1" complete="0" expand="true"/>
+                <task id="107" uid="63ae016a56914cdbbe541a48cb26752d" name="Mapeo de los componentes en la red" meeting="false" start="2025-01-01" duration="1" complete="0" expand="true"/>
+                <task id="108" uid="bf1ea508d24849f684689f2b6f4a4657" name="Creacion de diagrama de despliegue" meeting="false" start="2025-01-01" duration="2" complete="0" expand="true"/>
+                <task id="109" uid="41a81c396d154d09aea7baa8777897b7" name="Control de la participacion de los involucrados" meeting="false" start="2025-01-03" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="82" uid="5e4b606f03fb4dd4a4723ef59ff8cf05" name="4.2 Participacion de involucrados" color="#8cb6ce" meeting="false" start="2025-01-06" duration="2" complete="0" expand="false">
+                <task id="110" uid="f7ac577d9ce64049a9b3211edabf7bad" name="Revision de complimiento de calidad" meeting="false" start="2025-01-06" duration="1" complete="0" expand="true"/>
+                <task id="111" uid="0ed22b8f231f4c219a036117000669ef" name="Verificar listas de indicaciones de calidad" meeting="false" start="2025-01-06" duration="1" complete="0" expand="true"/>
+                <task id="112" uid="8772bafe3247432998baec7d3a8a4cb9" name="Validacion de stakeholders" meeting="false" start="2025-01-07" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="83" uid="205a7354169e4f979aac0af4a9551784" name="4.3 Calendiracion de plantacion" color="#8cb6ce" meeting="false" start="2025-01-07" duration="2" complete="0" expand="true"/>
+        </task>
+        <task id="5" uid="54d5bf4f7c6649f8a43eb890b60216f6" name="CIERRE" meeting="false" start="2025-01-09" duration="10" complete="0" expand="false">
+            <task id="84" uid="d923293670374095b9ce9d9ecb79f451" name="5.1 Manual de usuario" meeting="false" start="2025-01-09" duration="2" complete="0" expand="false">
+                <task id="113" uid="efedfbc597c045f0b299fb446b669a56" name="Redaccion de manual de usuario" meeting="false" start="2025-01-09" duration="1" complete="0" expand="true"/>
+                <task id="114" uid="8bb2dca32c434157868d7374040c086c" name="Revision y validaion del manual" meeting="false" start="2025-01-10" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="85" uid="5db4034d13d245c7bd0ff443292e260c" name="5.2 Manual tecnico" meeting="false" start="2025-01-10" duration="1" complete="0" expand="false">
+                <task id="115" uid="c79066a1fae949f0b8376c3bba85f734" name="Redaccion del manual tecnico" meeting="false" start="2025-01-10" duration="1" complete="0" expand="true"/>
+                <task id="116" uid="e1f0b7a5fdc44560b8d18c89f7e135ff" name="Revision y validacion del manual" meeting="false" start="2025-01-10" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="86" uid="7b3ca9ed6c5a4a0ebdaa5af804a4d016" name="5.3 Informe tecnico" meeting="false" start="2025-01-10" duration="2" complete="0" expand="false">
+                <task id="117" uid="31317d4e12d44159b18d27b140533486" name="Preparacion de informe" meeting="false" start="2025-01-10" duration="1" complete="0" expand="true"/>
+                <task id="118" uid="c5fe17e2371c456ea6f7c4f1cab547d3" name="Revision y validacion de informe" meeting="false" start="2025-01-13" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="87" uid="c3334322e5b0491aae2afcc3509604ae" name="5.4 Plan de capacitacion" meeting="false" start="2025-01-16" duration="2" complete="0" expand="true">
+                <task id="119" uid="b56ef375c5a042eeb1d3f009bca2fb5a" name="Identificacion de necesidades de capacitacion" meeting="false" start="2025-01-16" duration="1" complete="0" expand="true"/>
+                <task id="120" uid="3aa9b9ba0b0148fc91ec7b427b3635dd" name="Elaboracion de materiales de capacitacion" meeting="false" start="2025-01-16" duration="2" complete="0" expand="true"/>
+                <task id="121" uid="9c65ca05708744f695167765e27f3a4b" name="Ejecucion de capacitacion" meeting="false" start="2025-01-17" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="88" uid="3ac864d29bd44bebaae74ca1fc5db580" name="5.5 Elaboracion de documento de entrega" meeting="false" start="2025-01-20" duration="3" complete="0" expand="true">
+                <task id="122" uid="3633da4cdd8444a0b9c2d8f38c685b0d" name="Revision final del proyecto" meeting="false" start="2025-01-20" duration="1" complete="0" expand="true"/>
+                <task id="123" uid="2d010d03f37c4489ae01a9c2d8a6da72" name="Validacion con el cliente" meeting="false" start="2025-01-21" duration="1" complete="0" expand="true"/>
+                <task id="124" uid="7cf4f032d62349eb808da7d2b528e7ef" name="Cierre administrativo y legal" meeting="false" start="2025-01-21" duration="1" complete="0" expand="true"/>
+                <task id="125" uid="26a645640d7f4bd49efed4700bb5b8f3" name="Entrega final" meeting="false" start="2025-01-22" duration="1" complete="0" expand="true"/>
+            </task>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
