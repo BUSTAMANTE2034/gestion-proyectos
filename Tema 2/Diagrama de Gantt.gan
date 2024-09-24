@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Diagramat de Gantt" company="Inventer" webLink="http://" view-date="2024-10-07" view-index="0" gantt-divider-location="351" resource-divider-location="529" version="3.3.3309" locale="es_ES">
+    <description><![CDATA[Plataforma de administración de documentos y firmas digitales]]></description>
+    <view zooming-state="default:4" id="gantt-chart">
+        <field id="tpd15" name="Notas" width="20" order="-1"/>
+        <field id="tpd3" name="Nombre" width="200" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="75" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="75" order="2"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nombre" width="105" order="0"/>
+        <field id="1" name="Función" width="116" order="3"/>
+        <field id="6" name="Coste total" width="104" order="4"/>
+        <field id="tpc0" name="Apellido" width="84" order="1"/>
+        <field id="tpc1" name="Rol" width="116" order="2"/>
+    </view>
+    <!-- -->
+    <calendars base-id="Ninguna">
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+        <date year="" month="1" date="1" type="HOLIDAY"><![CDATA[New Year's Day]]></date>
+        <date year="" month="5" date="1" type="HOLIDAY"><![CDATA[Labour Day]]></date>
+        <date year="" month="9" date="16" type="HOLIDAY"><![CDATA[Independence Day]]></date>
+        <date year="" month="11" date="1" type="NEUTRAL"><![CDATA[All Saints Day]]></date>
+        <date year="" month="11" date="2" type="NEUTRAL"><![CDATA[Day of the Dead]]></date>
+        <date year="" month="12" date="12" type="HOLIDAY"><![CDATA[Day of the Virgin of Guadalupe]]></date>
+        <date year="" month="12" date="25" type="HOLIDAY"><![CDATA[Christmas Day]]></date>
+        <date year="2022" month="2" date="7" type="HOLIDAY"><![CDATA[Constitution Day]]></date>
+        <date year="2022" month="3" date="21" type="HOLIDAY"><![CDATA[Benito Juárez's Birthday]]></date>
+        <date year="2022" month="4" date="14" type="HOLIDAY"><![CDATA[Maundy Thursday]]></date>
+        <date year="2022" month="4" date="15" type="HOLIDAY"><![CDATA[Good Friday]]></date>
+        <date year="2022" month="11" date="21" type="HOLIDAY"><![CDATA[Revolution Day]]></date>
+        <date year="2016" month="2" date="1" type="HOLIDAY"><![CDATA[Constitution Day]]></date>
+        <date year="2016" month="3" date="14" type="HOLIDAY"><![CDATA[Birthday of Benito Juárez]]></date>
+        <date year="2016" month="3" date="24" type="HOLIDAY"><![CDATA[Maundy Thursday]]></date>
+        <date year="2016" month="3" date="25" type="HOLIDAY"><![CDATA[Good Friday]]></date>
+        <date year="2016" month="11" date="21" type="HOLIDAY"><![CDATA[Revolution Day]]></date>
+        <date year="2017" month="1" date="2" type="HOLIDAY"><![CDATA[New Year's Holiday]]></date>
+        <date year="2017" month="2" date="6" type="HOLIDAY"><![CDATA[Constitution Day]]></date>
+        <date year="2017" month="3" date="20" type="HOLIDAY"><![CDATA[Day off for Benito Juárez's Birthday Memorial]]></date>
+        <date year="2017" month="3" date="21" type="HOLIDAY"><![CDATA[Benito Juárez's Birthday Memorial]]></date>
+        <date year="2017" month="4" date="13" type="HOLIDAY"><![CDATA[Maundy Thursday]]></date>
+        <date year="2017" month="4" date="14" type="HOLIDAY"><![CDATA[Good Friday]]></date>
+        <date year="2017" month="11" date="20" type="HOLIDAY"><![CDATA[Revolution Day]]></date>
+        <date year="2018" month="2" date="5" type="HOLIDAY"><![CDATA[Constitution Day]]></date>
+        <date year="2018" month="3" date="19" type="HOLIDAY"><![CDATA[Benito Juárez's Birthday]]></date>
+        <date year="2018" month="3" date="29" type="HOLIDAY"><![CDATA[Maundy Thursday]]></date>
+        <date year="2018" month="3" date="30" type="HOLIDAY"><![CDATA[Good Friday]]></date>
+        <date year="2018" month="11" date="19" type="HOLIDAY"><![CDATA[Revolution Day]]></date>
+        <date year="2018" month="12" date="1" type="HOLIDAY"><![CDATA[New President of Mexico]]></date>
+        <date year="2019" month="2" date="4" type="HOLIDAY"><![CDATA[Constitution Day]]></date>
+        <date year="2019" month="3" date="18" type="HOLIDAY"><![CDATA[Benito Juárez's Birthday]]></date>
+        <date year="2019" month="4" date="18" type="HOLIDAY"><![CDATA[Maundy Thursday]]></date>
+        <date year="2019" month="4" date="19" type="HOLIDAY"><![CDATA[Good Friday]]></date>
+        <date year="2019" month="11" date="18" type="HOLIDAY"><![CDATA[Revolution Day]]></date>
+        <date year="2020" month="2" date="3" type="HOLIDAY"><![CDATA[Constitution Day]]></date>
+        <date year="2020" month="3" date="16" type="HOLIDAY"><![CDATA[Benito Juárez's Birthday]]></date>
+        <date year="2020" month="4" date="9" type="HOLIDAY"><![CDATA[Maundy Thursday]]></date>
+        <date year="2020" month="4" date="10" type="HOLIDAY"><![CDATA[Good Friday]]></date>
+        <date year="2020" month="11" date="16" type="HOLIDAY"><![CDATA[Revolution Day]]></date>
+        <date year="2021" month="2" date="1" type="HOLIDAY"><![CDATA[Constitution Day]]></date>
+        <date year="2021" month="3" date="15" type="HOLIDAY"><![CDATA[Benito Juárez's Birthday]]></date>
+        <date year="2021" month="4" date="1" type="HOLIDAY"><![CDATA[Maundy Thursday]]></date>
+        <date year="2021" month="4" date="2" type="HOLIDAY"><![CDATA[Good Friday]]></date>
+        <date year="2021" month="11" date="16" type="HOLIDAY"><![CDATA[Revolution Day]]></date>
+        <date year="2024" month="10" date="6" type="HOLIDAY"/>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" uid="c7e2974fa82d4eeca81fa9bb272fdd2d" name="Zignatrue" meeting="false" start="2024-09-19" duration="13" complete="0" expand="true">
+            <task id="1" uid="f2d91300f7d64bedae062713a73b9200" name="Inicio" meeting="false" start="2024-10-07" duration="1" complete="0" expand="true">
+                <task id="6" uid="7c310fd55d6448e19f3362fb9f2a4e37" name="SRS" meeting="false" start="2024-10-07" duration="1" complete="0" expand="true">
+                    <task id="7" uid="39eb252830f145c08a617fed4e8036b6" name="tarea_7" meeting="false" start="2024-10-07" duration="1" complete="0" expand="true"/>
+                </task>
+            </task>
+            <task id="2" uid="dafe89be4c70489abe4872834753fde1" name="Planeación" meeting="false" start="2024-09-19" duration="1" complete="0" expand="true"/>
+            <task id="3" uid="058ac50623a24373aa1b8618cc1ceddd" name="Ejecución" meeting="false" start="2024-09-19" duration="1" complete="0" expand="true"/>
+            <task id="4" uid="74d33aeba33948e0b634fd2cd1aa4910" name="Monitoreo y Control" meeting="false" start="2024-09-19" duration="1" complete="0" expand="true"/>
+            <task id="5" uid="468d1fa9b6724c618701efd14ab809eb" name="Cierre" meeting="false" start="2024-09-19" duration="1" complete="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources>
+        <custom-property-definition id="tpc0" name="Apellido" type="text" default-value=""/>
+        <custom-property-definition id="tpc1" name="Rol" type="text" default-value=""/>
+        <resource id="1" name="Marcos" function="SoftwareDevelopment:2" contacts="" phone="">
+            <custom-property definition-id="tpc1" value="DesarroladorFront-End"/>
+            <custom-property definition-id="tpc0" value="Conriquez"/>
+        </resource>
+        <resource id="2" name="Carlos Eduardo" function="SoftwareDevelopment:2" contacts="" phone="">
+            <custom-property definition-id="tpc1" value="Desarrolador Back-End"/>
+            <custom-property definition-id="tpc0" value="Bustamante"/>
+        </resource>
+        <resource id="4" name="Carlos Eduardo" function="SoftwareDevelopment:5" contacts="" phone="">
+            <custom-property definition-id="tpc1" value="Diseñador"/>
+            <custom-property definition-id="tpc0" value="Bustamante"/>
+        </resource>
+        <resource id="0" name="Carlos Eduardo" function="Default:1" contacts="" phone="">
+            <custom-property definition-id="tpc1" value="Proyect Manager"/>
+            <custom-property definition-id="tpc0" value="Bustamante "/>
+        </resource>
+        <resource id="5" name="Marco" function="SoftwareDevelopment:3" contacts="" phone="">
+            <custom-property definition-id="tpc1" value="Scrum Master"/>
+            <custom-property definition-id="tpc0" value="Conriquez"/>
+        </resource>
+        <resource id="3" name="Marco" function="SoftwareDevelopment:4" contacts="" phone="">
+            <custom-property definition-id="tpc1" value="Tester"/>
+        </resource>
+    </resources>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>
